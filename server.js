@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const app = express();
 app.use(cors());
-app.use(cors({ origin: 'https://your-frontend-url.com', credentials: true }));
+app.use(cors({ origin: 'https://login-assinment-1o2z4yuz7-sreeja-sreenivasans-projects.vercel.app', credentials: true }));
 
 app.use(express.json());
 
